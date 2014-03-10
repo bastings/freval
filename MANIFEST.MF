@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.6.0_65-b14-462-11M4609 (Apple Inc.)
+Built-By: joost
+Main-Class: joostbastings.freval.Freval
+Implementation-Version: 1.00-b13
+

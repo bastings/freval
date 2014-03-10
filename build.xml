@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<project default="main">
+    <target name="main" depends="compile, compress" description="Main target">
+        <echo>
+            Building the .jar file.
+        </echo>
+    </target>
+  
+    <target name="compile" description="Compilation target">
+        <javac srcdir="src"/>
+    </target>
+  
+  <target name="compress" description="Compression target">
+  	
+  	<property name="version.num" value="1.00"/>
+  	    <buildnumber file="build.num"/>
+  	    <delete file="freval.jar"/>
+	    <delete file="MANIFEST.MF"/>
+		<manifest file="MANIFEST.MF">
+		   <attribute name="Built-By" value="${user.name}"/>
+		   <attribute name="Main-Class" value="joostbastings.freval.Freval"/>
+		    <attribute name="Implementation-Version" 
+		                       value="${version.num}-b${build.number}"/> 			
+		</manifest>
+  	
+        <jar jarfile="freval.jar" basedir="src" 
+        	  includes="**/*.class" manifest="MANIFEST.MF" />
+  </target>
+</project>
