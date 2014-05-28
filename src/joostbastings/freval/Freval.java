@@ -28,7 +28,7 @@ public class Freval {
 	private List<Totals> totals;
 
 	/**
-	 * Fire up an instance of GraphEval that loads the specified tree files
+	 * Fire up an instance of Freval that loads the specified tree files
 	 * @param goldFilename
 	 * @param testFilename
 	 * @throws FileNotFoundException
@@ -63,7 +63,6 @@ public class Freval {
 	 */
 	private void start() throws Exception {
 		
-		// TODO move this
 		// print the columns
 		System.out.println(String.format(
 				"%4s    %4s    %4s    " +
@@ -102,7 +101,7 @@ public class Freval {
 				break;
 			}
 			
-			// TEMP print treeID, length
+			// print treeID, length
 			EvaluationInfo result = Evaluator.evaluate(goldTree, testTree);
 
 			System.out.print(result);
