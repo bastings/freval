@@ -9,6 +9,12 @@ Abstract
 PARSEVAL, the default paradigm for evaluating constituency parsers, calculates parsing success (Precision/Recall) as a function of the number of matching labeled brackets across the test set. Nodes in constituency trees, however, are connected together to reflect important linguistic relations such as predicate-argument and direct-dominance relations between categories. In this paper, we present FREVAL, a generalization of PARSEVAL, where the precision and recall are calculated not only for individual brackets, but also for co-occurring, connected brackets (i.e. fragments). FREVAL fragments precision (FLP) and recall (FLR) interpolate the match across the whole spectrum of fragment sizes ranging from those consisting of individual nodes (labeled brackets) to those consisting of full parse trees. We provide evidence that FREVAL is informative for inspecting relative parser performance by comparing a range of existing parsers.
 
 
+Paper
+-----
+You can download the paper "All Fragments Count in Parser Evaluation" here: 
+http://www.lrec-conf.org/proceedings/lrec2014/pdf/376_Paper.pdf
+
+
 In scientific work, please cite:
 --------------------------------------------------------------
 
