@@ -19,7 +19,7 @@ In scientific work, please cite:
 --------------------------------------------------------------
 
 Bibtex	@InProceedings{BASTINGS14.376,
-  author = {Joost Bastings and Khalil Sima'an},
+  author = {Jasmijn Bastings and Khalil Sima'an},
   title = {All Fragments Count in Parser Evaluation},
   booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
   year = {2014},
