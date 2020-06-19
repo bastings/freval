@@ -12,7 +12,7 @@ PARSEVAL, the default paradigm for evaluating constituency parsers, calculates p
 Paper
 -----
 You can download the paper "All Fragments Count in Parser Evaluation" here: 
-http://www.lrec-conf.org/proceedings/lrec2014/pdf/376_Paper.pdf
+https://github.com/bastings/freval/raw/master/lrec2014_freval.pdf
 
 
 In scientific work, please cite:
