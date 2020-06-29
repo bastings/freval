@@ -1,4 +1,4 @@
-package joostbastings.freval.util;
+package bastings.freval.util;
 
 /**
  * This exception is thrown when a system argument was not specified

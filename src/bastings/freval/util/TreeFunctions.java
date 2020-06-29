@@ -1,11 +1,11 @@
-package joostbastings.freval.util;
+package bastings.freval.util;
 
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-import joostbastings.freval.Settings;
+import bastings.freval.Settings;
 
 public class TreeFunctions {
 

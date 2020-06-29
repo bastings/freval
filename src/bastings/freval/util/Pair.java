@@ -1,4 +1,4 @@
-package joostbastings.freval.util;
+package bastings.freval.util;
 
 public class Pair<A, B> {
 	

@@ -1,4 +1,4 @@
-package joostbastings.freval;
+package bastings.freval;
 
 import java.util.*;
 import java.util.Map.Entry;

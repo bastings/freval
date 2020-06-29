@@ -1,4 +1,4 @@
-package joostbastings.freval.util;
+package bastings.freval.util;
 
 import java.util.LinkedList;
 

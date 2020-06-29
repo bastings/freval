@@ -1,9 +1,9 @@
-package joostbastings.freval.evaluator;
+package bastings.freval.evaluator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import joostbastings.freval.util.*;
+import bastings.freval.util.*;
 
 /**
  * A class with functions that generate fragments

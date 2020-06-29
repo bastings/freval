@@ -1,12 +1,12 @@
-package joostbastings.freval.util;
+package bastings.freval.util;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import joostbastings.freval.evaluator.DefaultEvaluationInfo;
-import joostbastings.freval.evaluator.ErrorEvaluationInfo;
-import joostbastings.freval.evaluator.EvaluationInfo;
-import joostbastings.freval.evaluator.SkipEvaluationInfo;
+import bastings.freval.evaluator.DefaultEvaluationInfo;
+import bastings.freval.evaluator.ErrorEvaluationInfo;
+import bastings.freval.evaluator.EvaluationInfo;
+import bastings.freval.evaluator.SkipEvaluationInfo;
 
 /**
  * Holds the total results for either all sentences

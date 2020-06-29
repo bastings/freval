@@ -1,11 +1,11 @@
-package joostbastings.freval.evaluator;
+package bastings.freval.evaluator;
 
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-import joostbastings.freval.Settings;
-import joostbastings.freval.util.*;
+import bastings.freval.Settings;
+import bastings.freval.util.*;
 
 /**
  * Calculates the Freval-score given 2 trees

@@ -1,13 +1,13 @@
-package joostbastings.freval;
+package bastings.freval;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import joostbastings.freval.evaluator.EvaluationInfo;
-import joostbastings.freval.evaluator.Evaluator;
-import joostbastings.freval.reader.PennReader;
-import joostbastings.freval.util.*;
+import bastings.freval.evaluator.EvaluationInfo;
+import bastings.freval.evaluator.Evaluator;
+import bastings.freval.reader.PennReader;
+import bastings.freval.util.*;
 
 public class Freval {
 

@@ -1,4 +1,4 @@
-package joostbastings.freval.evaluator;
+package bastings.freval.evaluator;
 
 
 /**

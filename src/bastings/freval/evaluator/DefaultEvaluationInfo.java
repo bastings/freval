@@ -1,9 +1,9 @@
-package joostbastings.freval.evaluator;
+package bastings.freval.evaluator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import joostbastings.freval.util.Totals;
+import bastings.freval.util.Totals;
 
 /**
  * The default implementation of Evaluation Info
