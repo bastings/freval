@@ -18,7 +18,7 @@
 	    <delete file="MANIFEST.MF"/>
 		<manifest file="MANIFEST.MF">
 		   <attribute name="Built-By" value="${user.name}"/>
-		   <attribute name="Main-Class" value="joostbastings.freval.Freval"/>
+		   <attribute name="Main-Class" value="bastings.freval.Freval"/>
 		    <attribute name="Implementation-Version" 
 		                       value="${version.num}-b${build.number}"/> 			
 		</manifest>
